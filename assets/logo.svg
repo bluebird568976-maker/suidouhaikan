@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 104" role="img" aria-labelledby="title desc">
+  <title id="title">○○○○株式会社 サンプルロゴ</title>
+  <desc id="desc">太い配管と接続部をモチーフにした架空ロゴ</desc>
+  <rect width="520" height="104" fill="none"/>
+  <g transform="translate(8 10)">
+    <path d="M10 16h42v18h18v34H44V50H10Z" fill="#111820"/>
+    <rect x="0" y="8" width="18" height="58" rx="2" fill="#ef5a29"/>
+    <rect x="61" y="25" width="20" height="52" rx="2" fill="#ef5a29"/>
+    <circle cx="13" cy="79" r="7" fill="#111820"/>
+    <circle cx="72" cy="10" r="7" fill="#111820"/>
+  </g>
+  <g fill="#111820">
+    <text x="112" y="45" font-family="'Yu Gothic','Hiragino Kaku Gothic ProN',Meiryo,sans-serif" font-size="30" font-weight="900" letter-spacing="1">○○○○株式会社</text>
+    <text x="114" y="73" font-family="Arial,sans-serif" font-size="12" font-weight="800" letter-spacing="3.2">WATER PIPE CONSTRUCTION / KANSAI</text>
+  </g>
+</svg>
