@@ -1,0 +1,18 @@
+html[lang="ja"],body{line-break:strict;word-break:normal;overflow-wrap:normal;hyphens:none}
+@supports (word-break:auto-phrase){
+  html[lang="ja"],body{word-break:auto-phrase}
+  p,li,dt,dd,label,.hero-text,.lead,.page-hero p,.impact-row p,.service-body p,.business-block p,.company-message p,.form-note{word-break:auto-phrase;text-wrap:pretty}
+  h1,h2,h3,.display-title{word-break:auto-phrase;text-wrap:balance}
+}
+.jp-flow{line-break:strict;overflow-wrap:normal;hyphens:none}
+@supports not (word-break:auto-phrase){
+  .jp-flow{word-break:keep-all}
+  .jp-flow .jp-phrase{display:inline-block;max-width:100%;white-space:nowrap}
+  .jp-flow wbr{display:inline}
+}
+@supports (word-break:auto-phrase){
+  .jp-flow .jp-phrase{display:inline;max-width:none;white-space:normal}
+  .jp-flow wbr{display:none}
+}
+.header-inner>*,.hero-inner>*,.intro-grid>*,.impact-row>*,.company-message>*,.company-row>*,.service-band>*,.business-block>*,.contact-grid>*,.form-grid>*,.cta-inner>*{min-width:0}
+@media(max-width:760px){p,li,dt,dd,label{max-width:100%}}
